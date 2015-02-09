@@ -6,7 +6,9 @@ Sick of &#8984;-F-ing my way through PDFs, I took up the task of migrating the i
 
 ### Raw docs
 
-The PDF and the XML file are pulled directly from the [NIST SP library](http://csrc.nist.gov/publications/PubsSPs.html). These are the unedited versions, and I've really just put them here for quick reference.
+The PDF and the XML file are pulled directly from the [NIST SP library](http://csrc.nist.gov/publications/PubsSPs.html). These are the unedited versions, and I've really just put them here for quick reference. Feel free to use it however you see fit. I'm going to try my best to keep it up-to-date.
+
+**_Coming soon_**: I'm building out a simple, browser-based way to navigate all the information here. A web app-ified version of the docs, if you will. Stay tuned for a link (once I figure out hosting), and a separate repo with all the code.
 
 ### MySQL exports
 
@@ -40,4 +42,15 @@ The SQL file is a MySQL self-contained, structure and data export. You can load 
 * withdrawls *# 96 rows*
   * number
   * incorporated_into *# Some other control*
-  
+
+### SQLite file
+
+This is a straight dump of the MySQL structure and data into a SQLite version, for lightweight reference.
+
+### XLSX file
+
+This Microsoft Excel file is a Workbook of Worksheets (for you guys that speak VBA) mapping to the tables in the above databases. Apologies for any crazy character formatting issues that may have sprouted up in translation.
+
+### The script
+
+This is quick and dirty Ruby to tear the XML file from NIST into pieces. The NIST schema is sort of wonky (e.g., the way numbers and statements are listed throughout is not optimal), so the script makes some assumptions. As a result, I had to go back and fill some of the gaps (e.g., references to families in the "controls" table) after the fact. It's not perfect, but meh, it works.
