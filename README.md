@@ -2,13 +2,13 @@
 
 Sick of &#8984;-F-ing my way through PDFs, I took up the task of migrating the information in NIST SP 800-53 Revision 4 into more navigable formats.
 
+**_Coming soon_**: I'm building out a simple, browser-based way to navigate all the information here. A web app-ified version of the docs, if you will. Stay tuned for a link (once I figure out hosting), and a separate repo with all the code.
+
 ## What you'll find here
 
 ### Raw docs
 
 The PDF and the XML file are pulled directly from the [NIST SP library](http://csrc.nist.gov/publications/PubsSPs.html). These are the unedited versions, and I've really just put them here for quick reference. Feel free to use it however you see fit. I'm going to try my best to keep it up-to-date.
-
-**_Coming soon_**: I'm building out a simple, browser-based way to navigate all the information here. A web app-ified version of the docs, if you will. Stay tuned for a link (once I figure out hosting), and a separate repo with all the code.
 
 ### MySQL exports
 
