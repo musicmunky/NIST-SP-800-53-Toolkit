@@ -51,6 +51,9 @@ This is a straight dump of the MySQL structure and data into a SQLite version, f
 
 This Microsoft Excel file is a Workbook of Worksheets (for you guys that speak VBA) mapping to the tables in the above databases. Apologies for any crazy character formatting issues that may have sprouted up in translation.
 
+### Text and SQL
+A bunch of CSVs and SQL files for getting all the data into various databases. The row IDs and datetimes columns are to support standard data schemas for Rails app models.
+
 ### The script
 
-This is quick and dirty Ruby to tear the XML file from NIST into pieces. The NIST schema is sort of wonky (e.g., the way numbers and statements are listed throughout is not optimal), so the script makes some assumptions. As a result, I had to go back and fill some of the gaps (e.g., references to families in the "controls" table) after the fact. It's not perfect, but meh, it works.
+This is quick and dirty Ruby/Nokogiri script to tear the XML file from NIST into pieces. The NIST schema is sort of wonky (e.g., the way numbers and statements are listed throughout is not optimal), so the script makes some assumptions. As a result, I had to go back and fill some of the gaps (e.g., references to families in the "controls" table) after the fact. It's not perfect, but meh, it works.
