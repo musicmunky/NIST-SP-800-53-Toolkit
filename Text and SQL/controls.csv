@@ -920,37 +920,3 @@
 920,PROGRAM MANAGEMENT,PM-14,"TESTING, TRAINING, AND MONITORING",,0,0,0,0,2015-03-27 17:25:55,2015-03-27 17:25:55,0
 921,PROGRAM MANAGEMENT,PM-15,"CONTACTS WITH SECURITY GROUPS AND ASSOCIATIONS",,0,0,0,0,2015-03-27 17:25:55,2015-03-27 17:25:55,0
 922,PROGRAM MANAGEMENT,PM-16,"THREAT AWARENESS PROGRAM",,0,0,0,0,2015-03-27 17:25:55,2015-03-27 17:25:55,0
-CREATE TABLE "controls" (
-  "family" text,
-  "number" text,
-  "title" text,
-  "priority" text,
-  "is_baseline_impact_low" text,
-  "is_baseline_impact_moderate" text,
-  "is_baseline_impact_high" text,
-  "is_withdrawn" text,
-  "is_enhancement" text
-);
-CREATE TABLE "families" (
-  "family" text,
-  "acronym" text
-);
-CREATE TABLE "references" (
-  "number" text,
-  "reference" text,
-  "link" text
-);
-CREATE TABLE "statements" (
-  "number" text,
-  "description" text,
-  "is_odv" text
-);
-CREATE TABLE "supplemental_guidance" (
-  "number" text,
-  "description" text,
-  "related" text
-);
-CREATE TABLE "withdrawls" (
-  "number" text,
-  "incorporated_into" text
-);
