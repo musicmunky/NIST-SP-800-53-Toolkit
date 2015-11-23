@@ -1,5 +1,4 @@
-#!/home/tandrews/.rvm/rubies/ruby-2.2.1/bin/ruby
-#####!/usr/local/bin/ruby
+#!/usr/local/bin/ruby
 
 # This script processes the 800-53-controls.xml document provided by NIST
 # (https://nvd.nist.gov/static/feeds/xml/sp80053/rev4/800-53-controls.xml), and
