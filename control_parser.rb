@@ -319,7 +319,7 @@ end
 
 options = {}
 OptionParser.new do |opts|
-	opts.banner = "Usage: control_parser.rb [options]"
+	opts.banner = "Usage: ruby control_parser.rb [options]"
 
 	opts.on("-h", "--help", "Script options:") do
 		puts opts
