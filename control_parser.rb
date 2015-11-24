@@ -302,6 +302,7 @@ end
 ######################################### Main ###################################################
 
 # For reference:
+# Ruby OptionParser documentation: http://docs.ruby-lang.org/en/2.1.0/OptionParser.html
 # Sequel gem documentation: http://sequel.jeremyevans.net/documentation.html
 # https://coderwall.com/p/03r98q/using-the-nokogiri-gem-to-parse-nested-xml-data-in-ruby
 # http://stackoverflow.com/questions/11156781/xpath-in-nokogiri-returning-empty-array-whereas-i-am-expecting-to-have-result
